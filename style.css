@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #738EEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    width: 1200px;
+    height: 850px;
+}
+.left_part{
+    height: inherit;
+    width: 30%;
+    background-color: #0F53B8;
+    color: white;
+}
+.img_container{
+    width: 216.89;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    width: 350px;
+    height: 200px;
+    margin-top: 5px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-weight: 700;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    font-weight: 500;
+}
+h3{
+    font-family: 'Pacifico', cursive;
+    color: #C5C5C5;
+    font-size: 24px;
+    width: 230px;
+}
+.main_data{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+}
+.m_header{
+    position: relative;
+}
+.langs{
+    position: relative;
+}
+.langs_div{
+    margin-top: 20px;
+}
+
+.right_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: inherit;
+    background-color: white;
+    color: #0F53B8!important;
+}
+.l_wrapper {
+    margin-left: 50px;
+}
+.r_header{
+    font-size: 35px;
+}
+.r_subheader{
+    font-size: 28px;
+}
+.l_line{
+    position: absolute;
+    right: 0;
+    border-color: black;
+    color: black;
+    height: 1px;
+    width: 340px;
+}
+.r_line{
+    border-color: black;
+    margin-top: 20px;
+}
+li{
+    font-family: 'Pacifico', cursive;
+    font-size: 21px;
+}
+.skills{
+    margin-top: 20px;
+}
+.special{
+    list-style: none;
+}
+.work_experience{
+    margin-top: 20px;
+}
+.spec{
+    font-size: 25px;
+}
+.education{
+    margin-top: 20px;
+}
+.spec_ul li{
+    list-style: none;
+}
